@@ -1,0 +1,10 @@
+<div class="post-app">
+  <app-add-post></app-add-post>
+  <app-posts></app-posts>
+  <img
+    *ngIf="loading$ | async"
+    class="loading-icon"
+    src="assets/images/sand-clock.png"
+    alt="icon"
+  />
+</div>

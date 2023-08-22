@@ -1,0 +1,21 @@
+.post-app {
+  width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  position: relative;
+}
+.loading-icon {
+  animation: animName 2s linear infinite;
+  height: 50px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+@keyframes animName {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
